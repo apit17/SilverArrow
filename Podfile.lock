@@ -1,0 +1,72 @@
+PODS:
+  - Alamofire (4.3.0)
+  - ModelMapper (7.3.0)
+  - Moya (10.0.0):
+    - Moya/Core (= 10.0.0)
+  - Moya-ModelMapper (6.0.0):
+    - Moya-ModelMapper/Core (= 6.0.0)
+  - Moya-ModelMapper/Core (6.0.0):
+    - ModelMapper
+    - Moya (~> 10.0)
+  - Moya-ObjectMapper/Core (2.5):
+    - Moya (~> 10.0.0)
+    - ObjectMapper (~> 3.0.0)
+  - Moya-ObjectMapper/RxSwift (2.5):
+    - Moya-ObjectMapper/Core
+    - Moya/RxSwift
+    - RxSwift (~> 4.0.0)
+  - Moya/Core (10.0.0):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (10.0.0):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - ObjectMapper (3.0.0)
+  - Result (3.2.4)
+  - RxSwift (4.0.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SideMenu (2.3.4)
+  - SwiftyJSON (4.0.0)
+  - TextFieldEffects (1.3.3)
+  - TTTAttributedLabel (1.13.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3.0)
+  - Moya
+  - Moya-ModelMapper
+  - Moya-ObjectMapper/RxSwift
+  - SDWebImage (~> 3.7)
+  - SideMenu (~> 2.3.4)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+  - TextFieldEffects (~> 1.3.0)
+  - TTTAttributedLabel (~> 1.13.4)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: fb67763f27990ba76a42bf412f848af5aef5e5ea
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  ModelMapper: b70d373f224fc8cfc4da67b483db163a6cd05fe6
+  Moya: adb58b0f4e58430db43cc6e2f6ebab1836501186
+  Moya-ModelMapper: c59c0bbd042cf9d1d9b0acf38c5f930956bebed8
+  Moya-ObjectMapper: 167adf69db0298bf3a19ea05cb9a16ee117c8ef5
+  ObjectMapper: 92230db59bf8f341a5c3a3cf0b9fbdde3cf0d87f
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SideMenu: 2ea1a015d14ffb96110af43fe3232d995943e726
+  SwiftyJSON: 8cd73b154950360d79292a8dc8c0d0a85d258930
+  TextFieldEffects: 8706f53525f1ce51c8921b7af32237caab50c467
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+
+PODFILE CHECKSUM: efd43e41c8b3d194814c71030ea077eeced658f6
+
+COCOAPODS: 1.2.1

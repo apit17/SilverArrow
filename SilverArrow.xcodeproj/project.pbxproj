@@ -7,21 +7,137 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		480546F92031E073005C38DE /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480546F82031E073005C38DE /* Configuration.swift */; };
+		480546FB2032017D005C38DE /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480546FA2032017D005C38DE /* TabbarViewController.swift */; };
+		480546FD20320E83005C38DE /* AnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480546FC20320E83005C38DE /* AnalysisViewController.swift */; };
+		480547002032140C005C38DE /* AnalysTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480546FF2032140C005C38DE /* AnalysTableViewCell.swift */; };
 		480E46B6202EE7870070F1AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480E46B5202EE7870070F1AD /* AppDelegate.swift */; };
-		480E46B8202EE7870070F1AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480E46B7202EE7870070F1AD /* ViewController.swift */; };
-		480E46BB202EE7870070F1AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480E46B9202EE7870070F1AD /* Main.storyboard */; };
 		480E46BD202EE7870070F1AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480E46BC202EE7870070F1AD /* Assets.xcassets */; };
 		480E46C0202EE7870070F1AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480E46BE202EE7870070F1AD /* LaunchScreen.storyboard */; };
+		480E46DC202EEA620070F1AD /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E46CB202EEA620070F1AD /* MFSideMenuContainerViewController.m */; };
+		480E46DD202EEA620070F1AD /* MFSideMenuShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E46CD202EEA620070F1AD /* MFSideMenuShadow.m */; };
+		480E46DE202EEA620070F1AD /* UIViewController+MFSideMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E46CF202EEA620070F1AD /* UIViewController+MFSideMenuAdditions.m */; };
+		480E46DF202EEA620070F1AD /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E46D2202EEA620070F1AD /* ProgressHUD.m */; };
+		480E46E0202EEA620070F1AD /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E46D5202EEA620070F1AD /* TPKeyboardAvoidingCollectionView.m */; };
+		480E46E1202EEA620070F1AD /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E46D7202EEA620070F1AD /* TPKeyboardAvoidingScrollView.m */; };
+		480E46E2202EEA620070F1AD /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E46D9202EEA620070F1AD /* TPKeyboardAvoidingTableView.m */; };
+		480E46E3202EEA620070F1AD /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E46DB202EEA620070F1AD /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		480E46E7202EECE40070F1AD /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480E46E6202EECE40070F1AD /* Login.storyboard */; };
+		480E46E9202EED090070F1AD /* ViewsInSideBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480E46E8202EED090070F1AD /* ViewsInSideBar.storyboard */; };
+		480E46EB202EED1E0070F1AD /* ViewsInTabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480E46EA202EED1E0070F1AD /* ViewsInTabbar.storyboard */; };
+		482A3DB52035BF2B0048813D /* SilverArrowAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482A3DB42035BF2B0048813D /* SilverArrowAPI.swift */; };
+		48419CE8203BC69F006BE2A8 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48419CE7203BC69F006BE2A8 /* ErrorHandler.swift */; };
+		48419CEA203BDE01006BE2A8 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48419CE9203BDE01006BE2A8 /* Login.swift */; };
+		48A5C1E6202F0058008E897D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5C1E5202F0058008E897D /* LoginViewController.swift */; };
+		48A5C1E8202F00A0008E897D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5C1E7202F00A0008E897D /* BaseViewController.swift */; };
+		48A5C1EA202F519E008E897D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5C1E9202F519E008E897D /* SignUpViewController.swift */; };
+		48A5C1EC202F679C008E897D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5C1EB202F679C008E897D /* ForgotPasswordViewController.swift */; };
+		48A5C1F1202F6BD9008E897D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5C1F0202F6BD9008E897D /* AboutViewController.swift */; };
+		48AFA218203B2A2B003DCD7E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFA217203B2A2B003DCD7E /* API.swift */; };
+		48DCA58F202FCF1800C2AF37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DCA58E202FCF1800C2AF37 /* Main.storyboard */; };
+		48DCA592202FD08600C2AF37 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA591202FD08600C2AF37 /* ContainerViewController.swift */; };
+		48DCA594202FD0A000C2AF37 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA593202FD0A000C2AF37 /* SideMenuController.swift */; };
+		48DCA596202FD5C200C2AF37 /* TabbarNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA595202FD5C200C2AF37 /* TabbarNavigationViewController.swift */; };
+		48DCA598202FEE5400C2AF37 /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA597202FEE5400C2AF37 /* BaseNavigationViewController.swift */; };
+		48DCA59E202FF8DA00C2AF37 /* KICamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 48DCA59A202FF8D900C2AF37 /* KICamera.png */; };
+		48DCA59F202FF8DA00C2AF37 /* KICamera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48DCA59B202FF8D900C2AF37 /* KICamera@2x.png */; };
+		48DCA5A0202FF8DA00C2AF37 /* KIImagePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA59D202FF8D900C2AF37 /* KIImagePager.m */; };
+		48DCA5BD202FF9C500C2AF37 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA5A4202FF9C400C2AF37 /* Chameleon_.m */; };
+		48DCA5BE202FF9C500C2AF37 /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA5A6202FF9C400C2AF37 /* ChameleonConstants.m */; };
+		48DCA5BF202FF9C500C2AF37 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA5AA202FF9C400C2AF37 /* NSArray+Chameleon.m */; };
+		48DCA5C0202FF9C500C2AF37 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA5AC202FF9C400C2AF37 /* UIAppearance+Swift.m */; };
+		48DCA5C1202FF9C500C2AF37 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA5AE202FF9C400C2AF37 /* UIButton+Chameleon.m */; };
+		48DCA5C2202FF9C500C2AF37 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA5B0202FF9C400C2AF37 /* UIColor+Chameleon.m */; };
+		48DCA5C3202FF9C500C2AF37 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA5B2202FF9C400C2AF37 /* UIColor+ChameleonPrivate.m */; };
+		48DCA5C4202FF9C500C2AF37 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA5B4202FF9C400C2AF37 /* UIImage+ChameleonPrivate.m */; };
+		48DCA5C5202FF9C500C2AF37 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA5B6202FF9C400C2AF37 /* UILabel+Chameleon.m */; };
+		48DCA5C6202FF9C500C2AF37 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA5B8202FF9C400C2AF37 /* UINavigationController+Chameleon.m */; };
+		48DCA5C7202FF9C500C2AF37 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA5BA202FF9C400C2AF37 /* UIView+ChameleonPrivate.m */; };
+		48DCA5C8202FF9C500C2AF37 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DCA5BC202FF9C400C2AF37 /* UIViewController+Chameleon.m */; };
+		48F129F12032A4C300FEDA59 /* DummyWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F129F02032A4C200FEDA59 /* DummyWebViewController.swift */; };
+		E30F36B44F6AD057F5582CDE /* Pods_SilverArrow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF13B8D7095CF1CCE39D425B /* Pods_SilverArrow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		480546F82031E073005C38DE /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		480546FA2032017D005C38DE /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		480546FC20320E83005C38DE /* AnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisViewController.swift; sourceTree = "<group>"; };
+		480546FF2032140C005C38DE /* AnalysTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysTableViewCell.swift; sourceTree = "<group>"; };
 		480E46B2202EE7870070F1AD /* SilverArrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilverArrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		480E46B5202EE7870070F1AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		480E46B7202EE7870070F1AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		480E46BA202EE7870070F1AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		480E46BC202EE7870070F1AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		480E46BF202EE7870070F1AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		480E46C1202EE7870070F1AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480E46C7202EE8560070F1AD /* SilverArrow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SilverArrow-Bridging-Header.h"; sourceTree = "<group>"; };
+		480E46C9202EEA620070F1AD /* MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenu.h; sourceTree = "<group>"; };
+		480E46CA202EEA620070F1AD /* MFSideMenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuContainerViewController.h; sourceTree = "<group>"; };
+		480E46CB202EEA620070F1AD /* MFSideMenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuContainerViewController.m; sourceTree = "<group>"; };
+		480E46CC202EEA620070F1AD /* MFSideMenuShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuShadow.h; sourceTree = "<group>"; };
+		480E46CD202EEA620070F1AD /* MFSideMenuShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuShadow.m; sourceTree = "<group>"; };
+		480E46CE202EEA620070F1AD /* UIViewController+MFSideMenuAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MFSideMenuAdditions.h"; sourceTree = "<group>"; };
+		480E46CF202EEA620070F1AD /* UIViewController+MFSideMenuAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MFSideMenuAdditions.m"; sourceTree = "<group>"; };
+		480E46D1202EEA620070F1AD /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		480E46D2202EEA620070F1AD /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		480E46D4202EEA620070F1AD /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		480E46D5202EEA620070F1AD /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		480E46D6202EEA620070F1AD /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		480E46D7202EEA620070F1AD /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		480E46D8202EEA620070F1AD /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		480E46D9202EEA620070F1AD /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		480E46DA202EEA620070F1AD /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		480E46DB202EEA620070F1AD /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		480E46E6202EECE40070F1AD /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		480E46E8202EED090070F1AD /* ViewsInSideBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewsInSideBar.storyboard; sourceTree = "<group>"; };
+		480E46EA202EED1E0070F1AD /* ViewsInTabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewsInTabbar.storyboard; sourceTree = "<group>"; };
+		482A3DB42035BF2B0048813D /* SilverArrowAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverArrowAPI.swift; sourceTree = "<group>"; };
+		48419CE7203BC69F006BE2A8 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		48419CE9203BDE01006BE2A8 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		48A5C1E5202F0058008E897D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		48A5C1E7202F00A0008E897D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		48A5C1E9202F519E008E897D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		48A5C1EB202F679C008E897D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		48A5C1F0202F6BD9008E897D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		48AFA217203B2A2B003DCD7E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		48DCA58E202FCF1800C2AF37 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		48DCA591202FD08600C2AF37 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		48DCA593202FD0A000C2AF37 /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		48DCA595202FD5C200C2AF37 /* TabbarNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarNavigationViewController.swift; sourceTree = "<group>"; };
+		48DCA597202FEE5400C2AF37 /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
+		48DCA59A202FF8D900C2AF37 /* KICamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KICamera.png; sourceTree = "<group>"; };
+		48DCA59B202FF8D900C2AF37 /* KICamera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KICamera@2x.png"; sourceTree = "<group>"; };
+		48DCA59C202FF8D900C2AF37 /* KIImagePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIImagePager.h; sourceTree = "<group>"; };
+		48DCA59D202FF8D900C2AF37 /* KIImagePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIImagePager.m; sourceTree = "<group>"; };
+		48DCA5A2202FF9C400C2AF37 /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon.h; sourceTree = "<group>"; };
+		48DCA5A3202FF9C400C2AF37 /* Chameleon_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon_.h; sourceTree = "<group>"; };
+		48DCA5A4202FF9C400C2AF37 /* Chameleon_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chameleon_.m; sourceTree = "<group>"; };
+		48DCA5A5202FF9C400C2AF37 /* ChameleonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonConstants.h; sourceTree = "<group>"; };
+		48DCA5A6202FF9C400C2AF37 /* ChameleonConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChameleonConstants.m; sourceTree = "<group>"; };
+		48DCA5A7202FF9C400C2AF37 /* ChameleonEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonEnums.h; sourceTree = "<group>"; };
+		48DCA5A8202FF9C400C2AF37 /* ChameleonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonMacros.h; sourceTree = "<group>"; };
+		48DCA5A9202FF9C400C2AF37 /* NSArray+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		48DCA5AA202FF9C400C2AF37 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		48DCA5AB202FF9C400C2AF37 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		48DCA5AC202FF9C400C2AF37 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		48DCA5AD202FF9C400C2AF37 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		48DCA5AE202FF9C400C2AF37 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		48DCA5AF202FF9C400C2AF37 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		48DCA5B0202FF9C400C2AF37 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		48DCA5B1202FF9C400C2AF37 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		48DCA5B2202FF9C400C2AF37 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		48DCA5B3202FF9C400C2AF37 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		48DCA5B4202FF9C400C2AF37 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		48DCA5B5202FF9C400C2AF37 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		48DCA5B6202FF9C400C2AF37 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		48DCA5B7202FF9C400C2AF37 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		48DCA5B8202FF9C400C2AF37 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		48DCA5B9202FF9C400C2AF37 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		48DCA5BA202FF9C400C2AF37 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		48DCA5BB202FF9C400C2AF37 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		48DCA5BC202FF9C400C2AF37 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		48F129F02032A4C200FEDA59 /* DummyWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyWebViewController.swift; sourceTree = "<group>"; };
+		4C9A0D0E164AA05B4DDEBEA7 /* Pods-SilverArrow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverArrow.release.xcconfig"; path = "Pods/Target Support Files/Pods-SilverArrow/Pods-SilverArrow.release.xcconfig"; sourceTree = "<group>"; };
+		7E60566B9373D1C0C27D818E /* Pods-SilverArrow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverArrow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SilverArrow/Pods-SilverArrow.debug.xcconfig"; sourceTree = "<group>"; };
+		EF13B8D7095CF1CCE39D425B /* Pods_SilverArrow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilverArrow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +145,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E30F36B44F6AD057F5582CDE /* Pods_SilverArrow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0518379BFDD1623EC20F1945 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF13B8D7095CF1CCE39D425B /* Pods_SilverArrow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		480546F72031DFDF005C38DE /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				480546F82031E073005C38DE /* Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		480546FE203213F4005C38DE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				480546FF2032140C005C38DE /* AnalysTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		480E46A9202EE7870070F1AD = {
 			isa = PBXGroup;
 			children = (
 				480E46B4202EE7870070F1AD /* SilverArrow */,
 				480E46B3202EE7870070F1AD /* Products */,
+				E2412938534BD1377F4BFAFA /* Pods */,
+				0518379BFDD1623EC20F1945 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +197,196 @@
 		480E46B4202EE7870070F1AD /* SilverArrow */ = {
 			isa = PBXGroup;
 			children = (
+				482A3DB32035BE950048813D /* API */,
+				480546FE203213F4005C38DE /* Cell */,
+				480546F72031DFDF005C38DE /* Configuration */,
+				480E46E4202EEA700070F1AD /* Library */,
+				480E46ED202EED3E0070F1AD /* Model */,
+				480E46EC202EED310070F1AD /* Controller */,
+				480E46E5202EEC790070F1AD /* Resources */,
 				480E46B5202EE7870070F1AD /* AppDelegate.swift */,
-				480E46B7202EE7870070F1AD /* ViewController.swift */,
-				480E46B9202EE7870070F1AD /* Main.storyboard */,
 				480E46BC202EE7870070F1AD /* Assets.xcassets */,
 				480E46BE202EE7870070F1AD /* LaunchScreen.storyboard */,
 				480E46C1202EE7870070F1AD /* Info.plist */,
+				480E46C7202EE8560070F1AD /* SilverArrow-Bridging-Header.h */,
 			);
 			path = SilverArrow;
+			sourceTree = "<group>";
+		};
+		480E46C8202EEA610070F1AD /* MFSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				480E46C9202EEA620070F1AD /* MFSideMenu.h */,
+				480E46CA202EEA620070F1AD /* MFSideMenuContainerViewController.h */,
+				480E46CB202EEA620070F1AD /* MFSideMenuContainerViewController.m */,
+				480E46CC202EEA620070F1AD /* MFSideMenuShadow.h */,
+				480E46CD202EEA620070F1AD /* MFSideMenuShadow.m */,
+				480E46CE202EEA620070F1AD /* UIViewController+MFSideMenuAdditions.h */,
+				480E46CF202EEA620070F1AD /* UIViewController+MFSideMenuAdditions.m */,
+			);
+			path = MFSideMenu;
+			sourceTree = "<group>";
+		};
+		480E46D0202EEA620070F1AD /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				480E46D1202EEA620070F1AD /* ProgressHUD.h */,
+				480E46D2202EEA620070F1AD /* ProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		480E46D3202EEA620070F1AD /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				480E46D4202EEA620070F1AD /* TPKeyboardAvoidingCollectionView.h */,
+				480E46D5202EEA620070F1AD /* TPKeyboardAvoidingCollectionView.m */,
+				480E46D6202EEA620070F1AD /* TPKeyboardAvoidingScrollView.h */,
+				480E46D7202EEA620070F1AD /* TPKeyboardAvoidingScrollView.m */,
+				480E46D8202EEA620070F1AD /* TPKeyboardAvoidingTableView.h */,
+				480E46D9202EEA620070F1AD /* TPKeyboardAvoidingTableView.m */,
+				480E46DA202EEA620070F1AD /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				480E46DB202EEA620070F1AD /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		480E46E4202EEA700070F1AD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				48DCA5A1202FF9C400C2AF37 /* Chameleon */,
+				48DCA599202FF8D900C2AF37 /* KIImagePager */,
+				480E46C8202EEA610070F1AD /* MFSideMenu */,
+				480E46D0202EEA620070F1AD /* ProgressHUD */,
+				480E46D3202EEA620070F1AD /* TPKeyboardAvoiding */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		480E46E5202EEC790070F1AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				480E46E6202EECE40070F1AD /* Login.storyboard */,
+				480E46E8202EED090070F1AD /* ViewsInSideBar.storyboard */,
+				480E46EA202EED1E0070F1AD /* ViewsInTabbar.storyboard */,
+				48DCA58E202FCF1800C2AF37 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		480E46EC202EED310070F1AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48DCA590202FD06900C2AF37 /* Main */,
+				48A5C1ED202F6B48008E897D /* SideBar */,
+				48A5C1E4202F0039008E897D /* Login */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		480E46ED202EED3E0070F1AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48419CE9203BDE01006BE2A8 /* Login.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		482A3DB32035BE950048813D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				482A3DB42035BF2B0048813D /* SilverArrowAPI.swift */,
+				48AFA217203B2A2B003DCD7E /* API.swift */,
+				48419CE7203BC69F006BE2A8 /* ErrorHandler.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		48A5C1E4202F0039008E897D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				48A5C1E5202F0058008E897D /* LoginViewController.swift */,
+				48A5C1E9202F519E008E897D /* SignUpViewController.swift */,
+				48A5C1EB202F679C008E897D /* ForgotPasswordViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		48A5C1ED202F6B48008E897D /* SideBar */ = {
+			isa = PBXGroup;
+			children = (
+				48A5C1F0202F6BD9008E897D /* AboutViewController.swift */,
+				480546FC20320E83005C38DE /* AnalysisViewController.swift */,
+				48F129F02032A4C200FEDA59 /* DummyWebViewController.swift */,
+			);
+			path = SideBar;
+			sourceTree = "<group>";
+		};
+		48DCA590202FD06900C2AF37 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				48A5C1E7202F00A0008E897D /* BaseViewController.swift */,
+				48DCA591202FD08600C2AF37 /* ContainerViewController.swift */,
+				48DCA593202FD0A000C2AF37 /* SideMenuController.swift */,
+				48DCA595202FD5C200C2AF37 /* TabbarNavigationViewController.swift */,
+				48DCA597202FEE5400C2AF37 /* BaseNavigationViewController.swift */,
+				480546FA2032017D005C38DE /* TabbarViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		48DCA599202FF8D900C2AF37 /* KIImagePager */ = {
+			isa = PBXGroup;
+			children = (
+				48DCA59A202FF8D900C2AF37 /* KICamera.png */,
+				48DCA59B202FF8D900C2AF37 /* KICamera@2x.png */,
+				48DCA59C202FF8D900C2AF37 /* KIImagePager.h */,
+				48DCA59D202FF8D900C2AF37 /* KIImagePager.m */,
+			);
+			path = KIImagePager;
+			sourceTree = "<group>";
+		};
+		48DCA5A1202FF9C400C2AF37 /* Chameleon */ = {
+			isa = PBXGroup;
+			children = (
+				48DCA5A2202FF9C400C2AF37 /* Chameleon.h */,
+				48DCA5A3202FF9C400C2AF37 /* Chameleon_.h */,
+				48DCA5A4202FF9C400C2AF37 /* Chameleon_.m */,
+				48DCA5A5202FF9C400C2AF37 /* ChameleonConstants.h */,
+				48DCA5A6202FF9C400C2AF37 /* ChameleonConstants.m */,
+				48DCA5A7202FF9C400C2AF37 /* ChameleonEnums.h */,
+				48DCA5A8202FF9C400C2AF37 /* ChameleonMacros.h */,
+				48DCA5A9202FF9C400C2AF37 /* NSArray+Chameleon.h */,
+				48DCA5AA202FF9C400C2AF37 /* NSArray+Chameleon.m */,
+				48DCA5AB202FF9C400C2AF37 /* UIAppearance+Swift.h */,
+				48DCA5AC202FF9C400C2AF37 /* UIAppearance+Swift.m */,
+				48DCA5AD202FF9C400C2AF37 /* UIButton+Chameleon.h */,
+				48DCA5AE202FF9C400C2AF37 /* UIButton+Chameleon.m */,
+				48DCA5AF202FF9C400C2AF37 /* UIColor+Chameleon.h */,
+				48DCA5B0202FF9C400C2AF37 /* UIColor+Chameleon.m */,
+				48DCA5B1202FF9C400C2AF37 /* UIColor+ChameleonPrivate.h */,
+				48DCA5B2202FF9C400C2AF37 /* UIColor+ChameleonPrivate.m */,
+				48DCA5B3202FF9C400C2AF37 /* UIImage+ChameleonPrivate.h */,
+				48DCA5B4202FF9C400C2AF37 /* UIImage+ChameleonPrivate.m */,
+				48DCA5B5202FF9C400C2AF37 /* UILabel+Chameleon.h */,
+				48DCA5B6202FF9C400C2AF37 /* UILabel+Chameleon.m */,
+				48DCA5B7202FF9C400C2AF37 /* UINavigationController+Chameleon.h */,
+				48DCA5B8202FF9C400C2AF37 /* UINavigationController+Chameleon.m */,
+				48DCA5B9202FF9C400C2AF37 /* UIView+ChameleonPrivate.h */,
+				48DCA5BA202FF9C400C2AF37 /* UIView+ChameleonPrivate.m */,
+				48DCA5BB202FF9C400C2AF37 /* UIViewController+Chameleon.h */,
+				48DCA5BC202FF9C400C2AF37 /* UIViewController+Chameleon.m */,
+			);
+			path = Chameleon;
+			sourceTree = "<group>";
+		};
+		E2412938534BD1377F4BFAFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E60566B9373D1C0C27D818E /* Pods-SilverArrow.debug.xcconfig */,
+				4C9A0D0E164AA05B4DDEBEA7 /* Pods-SilverArrow.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +396,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 480E46C4202EE7870070F1AD /* Build configuration list for PBXNativeTarget "SilverArrow" */;
 			buildPhases = (
+				31D7E9611BE788B85968CE7C /* [CP] Check Pods Manifest.lock */,
 				480E46AE202EE7870070F1AD /* Sources */,
 				480E46AF202EE7870070F1AD /* Frameworks */,
 				480E46B0202EE7870070F1AD /* Resources */,
+				A0F2D5B361369E675295F0C6 /* [CP] Embed Pods Frameworks */,
+				541263D0AAE19616F5E73BB4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,34 +452,117 @@
 			buildActionMask = 2147483647;
 			files = (
 				480E46C0202EE7870070F1AD /* LaunchScreen.storyboard in Resources */,
+				48DCA59F202FF8DA00C2AF37 /* KICamera@2x.png in Resources */,
+				48DCA59E202FF8DA00C2AF37 /* KICamera.png in Resources */,
 				480E46BD202EE7870070F1AD /* Assets.xcassets in Resources */,
-				480E46BB202EE7870070F1AD /* Main.storyboard in Resources */,
+				480E46E7202EECE40070F1AD /* Login.storyboard in Resources */,
+				48DCA58F202FCF1800C2AF37 /* Main.storyboard in Resources */,
+				480E46EB202EED1E0070F1AD /* ViewsInTabbar.storyboard in Resources */,
+				480E46E9202EED090070F1AD /* ViewsInSideBar.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31D7E9611BE788B85968CE7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		541263D0AAE19616F5E73BB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SilverArrow/Pods-SilverArrow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F2D5B361369E675295F0C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SilverArrow/Pods-SilverArrow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		480E46AE202EE7870070F1AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				480E46B8202EE7870070F1AD /* ViewController.swift in Sources */,
+				48F129F12032A4C300FEDA59 /* DummyWebViewController.swift in Sources */,
+				480E46DF202EEA620070F1AD /* ProgressHUD.m in Sources */,
+				48DCA594202FD0A000C2AF37 /* SideMenuController.swift in Sources */,
+				480546FB2032017D005C38DE /* TabbarViewController.swift in Sources */,
+				480E46E1202EEA620070F1AD /* TPKeyboardAvoidingScrollView.m in Sources */,
+				48DCA5C8202FF9C500C2AF37 /* UIViewController+Chameleon.m in Sources */,
+				48A5C1E8202F00A0008E897D /* BaseViewController.swift in Sources */,
+				48DCA5C6202FF9C500C2AF37 /* UINavigationController+Chameleon.m in Sources */,
+				480546F92031E073005C38DE /* Configuration.swift in Sources */,
+				480E46DD202EEA620070F1AD /* MFSideMenuShadow.m in Sources */,
+				48DCA5C0202FF9C500C2AF37 /* UIAppearance+Swift.m in Sources */,
+				480E46E2202EEA620070F1AD /* TPKeyboardAvoidingTableView.m in Sources */,
+				48DCA5C5202FF9C500C2AF37 /* UILabel+Chameleon.m in Sources */,
+				480546FD20320E83005C38DE /* AnalysisViewController.swift in Sources */,
+				48DCA5BE202FF9C500C2AF37 /* ChameleonConstants.m in Sources */,
+				48DCA5BF202FF9C500C2AF37 /* NSArray+Chameleon.m in Sources */,
+				480E46DE202EEA620070F1AD /* UIViewController+MFSideMenuAdditions.m in Sources */,
+				48A5C1EA202F519E008E897D /* SignUpViewController.swift in Sources */,
+				48419CE8203BC69F006BE2A8 /* ErrorHandler.swift in Sources */,
+				482A3DB52035BF2B0048813D /* SilverArrowAPI.swift in Sources */,
+				48DCA5C4202FF9C500C2AF37 /* UIImage+ChameleonPrivate.m in Sources */,
+				48AFA218203B2A2B003DCD7E /* API.swift in Sources */,
+				48DCA592202FD08600C2AF37 /* ContainerViewController.swift in Sources */,
+				48DCA596202FD5C200C2AF37 /* TabbarNavigationViewController.swift in Sources */,
+				48DCA5BD202FF9C500C2AF37 /* Chameleon_.m in Sources */,
+				48DCA5C7202FF9C500C2AF37 /* UIView+ChameleonPrivate.m in Sources */,
+				48DCA5C2202FF9C500C2AF37 /* UIColor+Chameleon.m in Sources */,
+				480E46DC202EEA620070F1AD /* MFSideMenuContainerViewController.m in Sources */,
+				48DCA5C3202FF9C500C2AF37 /* UIColor+ChameleonPrivate.m in Sources */,
 				480E46B6202EE7870070F1AD /* AppDelegate.swift in Sources */,
+				480547002032140C005C38DE /* AnalysTableViewCell.swift in Sources */,
+				48419CEA203BDE01006BE2A8 /* Login.swift in Sources */,
+				48DCA5C1202FF9C500C2AF37 /* UIButton+Chameleon.m in Sources */,
+				480E46E0202EEA620070F1AD /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				48A5C1F1202F6BD9008E897D /* AboutViewController.swift in Sources */,
+				48DCA5A0202FF8DA00C2AF37 /* KIImagePager.m in Sources */,
+				48A5C1EC202F679C008E897D /* ForgotPasswordViewController.swift in Sources */,
+				48DCA598202FEE5400C2AF37 /* BaseNavigationViewController.swift in Sources */,
+				48A5C1E6202F0058008E897D /* LoginViewController.swift in Sources */,
+				480E46E3202EEA620070F1AD /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		480E46B9202EE7870070F1AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				480E46BA202EE7870070F1AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		480E46BE202EE7870070F1AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,13 +683,16 @@
 		};
 		480E46C5202EE7870070F1AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E60566B9373D1C0C27D818E /* Pods-SilverArrow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YJ5PW75CR;
 				INFOPLIST_FILE = SilverArrow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apit.SilverArrow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SilverArrow/SilverArrow-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +700,16 @@
 		};
 		480E46C6202EE7870070F1AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9A0D0E164AA05B4DDEBEA7 /* Pods-SilverArrow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YJ5PW75CR;
 				INFOPLIST_FILE = SilverArrow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apit.SilverArrow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SilverArrow/SilverArrow-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
