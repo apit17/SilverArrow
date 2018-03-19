@@ -12,13 +12,16 @@ import Moya
 class API {
     static let provider = MoyaProvider<ServerAPI>()
     
-    static func request(target: ServerAPI, success successCallback: @escaping(Response) -> Void, error errorCallback: @escaping(ErrorHandler) -> Void) {
+    static func postRequest(target: ServerAPI, useHud: Bool, statusHud: String?, success successCallback: @escaping(Response) -> Void, error errorCallback: @escaping(ErrorHandler) -> Void) {
+        if useHud {
+            ProgressHUD.show(statusHud, interaction: false)
+        }
         provider.request(target) { (result) in
             switch result {
             case .success(let response):
                 do {
                     let json = try JSONSerialization.jsonObject(with: response.data, options: []) as? [String: Any]
-                    print(json ?? [:])
+                    print("Success with json ", json ?? [:])
                 }catch {
                     print("ererererere")
                 }
@@ -28,8 +31,12 @@ class API {
                     let error = ErrorHandler(code: String(response.statusCode), desc: response.description)
                     errorCallback(error)
                 }
+                if useHud {
+                    ProgressHUD.dismiss()
+                }
             case .failure(let error):
                 errorCallback(ErrorHandler(error: error as NSError))
+                ProgressHUD.dismiss()
             }
         }
     }

@@ -18,7 +18,8 @@ enum ServerAPI {
 }
 
 extension ServerAPI: TargetType {
-    static let baseApi = "/api/v1/mobile/"
+    static let baseApi = "api/v1/mobile/"
+    static let loginApi = ServerAPI.baseApi + "user/credential/login"
     var sampleData: Data {
         return Data()
     }
@@ -32,7 +33,7 @@ extension ServerAPI: TargetType {
     var path: String {
         switch self {
         case .login:
-            return ServerAPI.baseApi + "user/credential/login"
+            return ServerAPI.loginApi
         case .forgotPassword:
             return "forgot_password"
         case .signUp:

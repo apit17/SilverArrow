@@ -64,20 +64,18 @@ class LoginViewController: BaseViewController {
     @IBAction func onClickLogin(_ sender: Any) {
         let error = validateForm()
         if error == "" {
-            API.request(target: .login(username: usernameTF.text!, password: passwordTF.text!), success: { (response) in
-                
-                
+            API.postRequest(target: .login(username: usernameTF.text!, password: passwordTF.text!), useHud: true, statusHud: "Loging in..",  success: { (response) in
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let containerViewController = storyboard.instantiateViewController(withIdentifier: "ContainerViewController") as! ContainerViewController
+                containerViewController.controllerId = "AboutNavigation"
+                if self.navigationController?.viewControllers[0] == self{
+                    self.navigationController!.viewControllers.append(containerViewController)
+                }else{
+                    self.present(containerViewController, animated: true, completion: nil)
+                }
             }, error: { (error) in
                 print(error)
             })
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let containerViewController = storyboard.instantiateViewController(withIdentifier: "ContainerViewController") as! ContainerViewController
-            containerViewController.controllerId = "AboutNavigation"
-            if self.navigationController?.viewControllers[0] == self{
-                self.navigationController!.viewControllers.append(containerViewController)
-            }else{
-                self.present(containerViewController, animated: true, completion: nil)
-            }
         }else {
             showAlert(self, title: "", message: error, okFunction: nil, cancelFunction: nil)
         }

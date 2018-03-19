@@ -25,13 +25,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="iNz-CE-Vif">
-                                                <rect key="frame" x="82" y="24" width="211" height="44"/>
+                                                <rect key="frame" x="49" y="24" width="276" height="57"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="211" id="FIY-5D-iny"/>
+                                                    <constraint firstAttribute="height" constant="57" id="3Xh-sU-X9c"/>
                                                 </constraints>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mZp-K3-I9n">
-                                                <rect key="frame" x="8" y="132" width="359" height="176"/>
+                                                <rect key="frame" x="8" y="145" width="359" height="176"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gD8-D2-onG">
                                                         <rect key="frame" x="0.0" y="0.0" width="359" height="50"/>
@@ -150,7 +150,7 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggj-li-o77">
-                                                <rect key="frame" x="110" y="340" width="155" height="30"/>
+                                                <rect key="frame" x="110" y="353" width="155" height="30"/>
                                                 <color key="backgroundColor" red="1" green="0.019607843137254902" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="155" id="T7q-v4-HHG"/>
@@ -165,7 +165,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ra-ms-2Uc">
-                                                <rect key="frame" x="110" y="388" width="155" height="30"/>
+                                                <rect key="frame" x="110" y="401" width="155" height="30"/>
                                                 <color key="backgroundColor" red="0.025909140706062317" green="0.2983403205871582" blue="0.52110987901687622" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                                 <state key="normal" title="SIGN UP">
@@ -185,6 +185,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="mZp-K3-I9n" firstAttribute="top" secondItem="iNz-CE-Vif" secondAttribute="bottom" constant="64" id="5P8-cI-R09"/>
+                                            <constraint firstItem="iNz-CE-Vif" firstAttribute="leading" secondItem="FI0-aL-u6U" secondAttribute="leading" constant="49" id="8lW-ay-958"/>
                                             <constraint firstItem="UQl-Xk-Ap8" firstAttribute="centerY" secondItem="f4x-rN-vVn" secondAttribute="centerY" id="9WX-d2-U2f"/>
                                             <constraint firstItem="f4x-rN-vVn" firstAttribute="centerY" secondItem="kmh-0L-kfX" secondAttribute="centerY" id="CEc-Zs-mOu"/>
                                             <constraint firstItem="iNz-CE-Vif" firstAttribute="top" secondItem="FI0-aL-u6U" secondAttribute="top" constant="24" id="Dxj-Fi-t60"/>
@@ -193,6 +194,7 @@
                                             <constraint firstItem="9ra-ms-2Uc" firstAttribute="centerX" secondItem="ggj-li-o77" secondAttribute="centerX" id="V1O-4V-9UQ"/>
                                             <constraint firstItem="9ra-ms-2Uc" firstAttribute="width" secondItem="ggj-li-o77" secondAttribute="width" id="b9p-FB-f06"/>
                                             <constraint firstAttribute="bottom" secondItem="Hg4-AU-XWf" secondAttribute="bottom" constant="89" id="dNW-2I-GbF"/>
+                                            <constraint firstAttribute="trailing" secondItem="iNz-CE-Vif" secondAttribute="trailing" constant="50" id="dX7-Bu-zhV"/>
                                             <constraint firstItem="Hg4-AU-XWf" firstAttribute="centerX" secondItem="FI0-aL-u6U" secondAttribute="centerX" id="hnz-m0-fe8"/>
                                             <constraint firstAttribute="trailing" secondItem="mZp-K3-I9n" secondAttribute="trailing" constant="8" id="o9c-c7-RKT"/>
                                             <constraint firstItem="ggj-li-o77" firstAttribute="top" secondItem="mZp-K3-I9n" secondAttribute="bottom" constant="32" id="qxa-wd-f4p"/>
